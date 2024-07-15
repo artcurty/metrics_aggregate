@@ -1,0 +1,3 @@
+### GET Request
+POST http://localhost:5000/metrics?startDate=2024-05-01&endDate=2024-05-31&team=myteam
+Content-Type: application/json

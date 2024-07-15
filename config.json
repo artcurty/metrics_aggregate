@@ -1,0 +1,30 @@
+{
+  "apis": [
+    {
+      "name": "metrica 1",
+      "method": "GET",
+      "url": "https://fa7a81e1-89e2-43c6-ab59-ad95720f71bc.requestcatcher.com",
+      "headers": {
+        "Authorization": "Bearer your_api_token"
+      },
+      "parameters": {
+        "team": "{team}",
+        "startDate": "{start_date}",
+        "endDate": "{end_date}"
+      }
+    },
+    {
+      "name": "metrica 2",
+      "method": "POST",
+      "url": "https://fa7a81e1-89e2-43c6-ab59-ad95720f71bc.requestcatcher.com",
+      "headers": {
+        "Authorization": "Bearer your_api_token"
+      },
+      "body": {
+        "team": "{team}",
+        "startDate": "{start_date}",
+        "endDate": "{end_date}"
+      }
+    }
+  ]
+}
